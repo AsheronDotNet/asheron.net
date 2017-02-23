@@ -1,6 +1,6 @@
 // app/routes
 
 module.exports = function(router) {
-    require('./api')(router.api);
+    require('./atlas')(router.atlas);
     require('./main')(router.main);
 };

@@ -12,7 +12,6 @@
     "dotenv": "^4.0.0",
     "express": "^4.13.4",
     "express-subdomain": "^1.0.5",
-    "mongoose": "^4.4.13",
     "xmlbuilder": "^8.2.2"
   },
   "devDependencies": {
