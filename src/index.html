@@ -1,51 +1,253 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Asheron.net</title>
-    <base href="/">
-    <style>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Asheron's Call Community - Create a new story in Dereth by playing the emulator today - More info available on Discord.</title>
 
-    html { height: 100%; min-height: 100%: }
-    body {
-        height: 100%;
-      font-size: 16px;
-      font-weight: 300;
-      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      overflow: hidden;
-    }
-
-
-        body { background: #01071c url('img/ac-villains.jpg') no-repeat 0 0; background-size: cover; background-position: center center; }
-
-        #main { position: absolute; top: 45%; left: 50%; transform: translate(-50%,-50%); height: 450px; width: 700px; }
-
-        #main .logo { display: block; margin: 0 auto 30px auto; width: 70%; height: auto; }
-
-        #main .wrap {  background: #e9e9e9; border-radius: 5px; padding: 40px 0 30px 0; }
-
-        #main .wrap h1 { text-align: center; font-size: 28px; font-weight: normal; font-family: Helvetica, Arial, sans-serif; color: #7289da; margin-bottom: 40px; }
-
-        #main .wrap a { background: #fff; color: #7289da; display: block; text-align: center; width: 80%; margin: 0 auto 30px auto; border-radius: 3px; padding: 20px; font-weight: bold; text-decoration: none; font-size: 34px; font-family: Helvetica; }
-
-        #main .discord { display: block; width: 28%; height: auto; margin: 0 auto; }
-    </style>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
+  <!--Floating Button
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>-->
+  <!-- Navigation -->
+  <div class="navbar-fixed">
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Asheron's Call Community</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#emulator">Play Emulator</a></li>
+        <li><a href="downloads.html">Downloads</a></li>
+        <li><a href="http://www.asheron.net/atlas">Atlas</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="https://discord.gg/GXC9jXU" target="_blank" class="waves-effect waves-light btn orange darken-3">Launch Discord</a></li>
+        <!-- Dropdown Menu <li>
+          !-- Dropdown Trigger --
+          <a class='dropdown-button' href='#' data-activates='dropdown1'><i class="material-icons">view_module</i></a>
 
-    <div id="main">
-        <img class="logo" src="img/aclogo.png">
-        <div class="wrap">
+          !-- Dropdown Structure --
+          <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="#!">Discord Channels</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Facebook Pages</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">YouTube Channels</a></li>
+          </ul>
+        </li> -->
+      </ul>
 
-            <h1>Join the Asheron’s Call community Discord server</h1>
-            <p><a href="https://discord.gg/AftnYKT">https://discord.gg/AftnYKT</a></p>
-            <img class="discord" src="img/discord-logo.png">
+      <ul id="nav-mobile" class="side-nav center">
+        <li><a href="index.html">Asheron's Call Community</a></li>
+        <li><a href="#emulator">Play Emulator</a></li>
+        <li><a href="downloads.html">Downloads</a></li>
+        <li><a href="http://www.asheron.net/atlas">Atlas</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="https://discord.gg/GXC9jXU" target="_blank" class="waves-effect waves-light btn orange darken-3">Launch Discord</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse black-text"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+</div>
+  <div id="index-banner" class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <div class="row center">
+          <img class="aclogo" src="http://asheron.net/img/aclogo.png">
+          <h5 class="header col s12 light">Join the Asheron’s Call community Discord server</h5>
+        </div>
+        <div class="row center">
+          <a target="_blank" href="https://discord.gg/GXC9jXU" id="download-button" class="btn-large waves-effect waves-light orange darken-3">Open Discord Server</a>
+
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="http://masoncoley.com/wp-content/uploads/2017/02/ac-heros-cropped2.png" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center blue-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center blue-text">Discord commands</h5>
+
+            <p class="light">The Asheron's Call Discord channel is equipt with numerous custom commands including <b>!joinserver</b> followed by your favorite Asheron's Call server name or initial, Asheron will then automatically add you to the server channel. We also have <b>!serverstatus</b> available which will let you know which emulars are currently online.</p>
+          </div>
         </div>
 
-    </div>
-    <!-- <img src="https://www.extremetech.com/wp-content/uploads/2016/12/Asherons_Call_Logo.png">
-    <iframe src="https://discordapp.com/widget?id=260834342777913345&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe> -->
-</body>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center red-text"><i class="material-icons">location_on</i></h2>
+            <h5 class="center red-text">Explore Dereth</h5>
 
+            <p class="light">Thanks to the amazing group of people who spent the last few weeks of gameplay data mining Asheron's Call, you now have the opportunity to venture through <b>any</b> dungeon and <b>any</b> landscape throughout all of Dereth! Don't forget to check out the anniversary party dungeon and dance with some of the hip dj'ing tuskers!  </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center purple-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center purple-text">Admin privileges</h5>
+
+            <p class="light">Don't want to run from point A to point B? <b>No problem!</b> Don't want to venture around naked with no loot? <b>Don't you worry!</b> Have you ever wanted to shoot a cow out of a wand? <b>That part is covered too!</b> The list of available commands for the emulatos are growing lengthier everyday! Hop in and use them to create a new story on Dereth.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<div id="emulator">
+  <div class="parallax-container valign-wrapper">
+    <div class="section">
+      <div class="container">
+        <div class="row center">
+          <h4 class="header col s12 light">Play the emulator to create your own unique story</h4>
+          <h5 class="light col s12 header">Go anywhere, spawn anything, and be anyone you want. </h5>
+        </div>
+        <div class="row center">
+          <a href="emulator-info.html" id="download-button" class="btn-large waves-effect waves-light orange darken-3">Emulator Info</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="http://masoncoley.com/wp-content/uploads/2017/02/ac-villains.png" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m12">
+          <h3><b>Option 1:</b> Use your current acclient.exe file</h3>
+          <p>Make a shortcut of your current acclient.exe file > Right click shortcut > Click 'Properties'. Under 'Shortcut' tab add -h [Address]:[Port] -a username:password outside of the quotes of your acclient.exe location. Change [Address] to one of the following servers and [Port] to its corresponding port. (<b>Example:</b> "C:\Games\Asheron's Call\acclient.exe" -h 75.63.120.231:9050 -a JohnDoe:pass1)
+        </div>
+        <div class="col s12 m3">
+          <div class="card green darken-1 hoverable">
+            <div class="card-content white-text">
+              <span class="card-title">Pea's Server</span>
+              <p><b>Address:</b><br>
+                75.63.120.231<br>
+              <b>Port:</b> 9050<br>
+              <b>Emulator:</b><br>
+              PhatAC (v0.1.0)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="card teal darken-1 hoverable">
+            <div class="card-content white-text">
+              <span class="card-title">Megaduck</span>
+              <p><b>Address:</b><br>
+                ac.megaduck.com <br>
+              <b>Port:</b> 9050<br>
+              <b>Emulator:</b><br>
+              PhatAC (v0.1.0)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="card pink darken-1 hoverable">
+            <div class="card-content white-text">
+              <span class="card-title">Yews's Server</span>
+              <p><b>Address:</b><br>
+                ac.yewsplugins.com<br>
+              <b>Port:</b> 9999<br>
+              <b>Emulator:</b><br>
+                PhatAC (v0.1.0)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="card blue-grey darken-1 hoverable">
+            <div class="card-content white-text">
+              <span class="card-title">Bob's Server</span>
+              <p><b>Address:</b><br>
+                accpp.org<br>
+              <b>Port:</b> 9040<br>
+              <b>Emulator:</b><br>
+                PhatAC (v0.1.0)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m12">
+          <h3><b>Option 2:</b> Install an emulator launcher</h3>
+          <p>Thanks to some very dedicated members of the communtity, logging into the emulatrs has become even easier and dumbed down. Choose one of the launchers below, install it, and launch! It's literally that simple. <b>Warning:</b> The launchers might upset your computer's antivirus software, but they're safe to use!</p>
+        </div>
+        <div class="col s12 m6">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img src="http://masoncoley.com/wp-content/uploads/2017/02/gif-2.gif">
+              <span class="card-title">PhatAC Launcher</span>
+            </div>
+            <div class="card-content">
+              <p><b>Author:</b> cMoski<br>
+                 <b>Version</b> 2.3.0.0<br>
+                 <b>System:</b> Windows<br>
+                <b>Decal Support:</b> Yes</p>
+                 </p>
+            </div>
+            <div class="card-action">
+              <a target="_blank" href="https://cdn.discordapp.com/attachments/276079854246690818/282771318561177600/PhatACLauncher3_v21b.zip">Download Launcher</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img src="http://masoncoley.com/wp-content/uploads/2017/02/gif.gif">
+              <span class="card-title">Twargle Launcher</span>
+            </div>
+            <div class="card-content">
+              <p><b>Author:</b> Thwargle<br>
+                <b>Version</b> 4.0.0.0<br>
+                <b>System:</b> Windows<br>
+               <b>Decal Support:</b> Yes</p>
+            </div>
+            <div class="card-action">
+              <a target="_blank" href="http://thwarglauncher.codeplex.com/">Download Launcher</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="page-footer white">
+  <div class="center footer-copyright black-text">
+    <div class="container">
+    <b>Powered by</b><br>
+      <a href="https://discord.gg/GXC9jXU">Asheron's Call Discord Team
+      <img class="discord" src="http://asheron.net/img/discord-logo.png"></a>
+    </div>
+  </div>
+</footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
