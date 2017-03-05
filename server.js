@@ -37,4 +37,4 @@ app.use('/', routers.main);
 // Listen / Start App =====================================================================
 
 app.listen(port);
-console.log('Server running!');
+console.log('Server running! Listening on port ' + port);
