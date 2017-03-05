@@ -4,4 +4,3 @@ Dockerfile
 .DS_Store
 .git
 npm-debug.log
-hooks
