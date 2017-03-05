@@ -9,7 +9,6 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "asyncawait": "^1.0.3",
     "body-parser": "^1.15.0",
     "dotenv": "^4.0.0",
     "express": "^4.13.4",
