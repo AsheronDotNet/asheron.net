@@ -7,10 +7,10 @@ services:
   - docker
 
 before_install:
-    - docker build .
+    - docker build -t $TRAVIS_REPO_SLUG .
 
 after_success:
   - if [ "$TRAVIS_BRANCH" == "master" ]; then
     docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
-    docker push $DOCKERHUB_ORG/asheron.net:latest;
+    docker push $TRAVIS_REPO_SLUG:latest;
     fi
