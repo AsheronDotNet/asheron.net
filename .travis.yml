@@ -9,6 +9,8 @@ services:
 before_install:
     - docker build -t $TRAVIS_REPO_SLUG .
 
+install: true    
+
 after_success:
   - if [ "$TRAVIS_BRANCH" == "master" ]; then
     docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
