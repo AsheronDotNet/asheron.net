@@ -60,3 +60,13 @@ footer.page-footer {
    ========================================================================== */
 .aclogo { display: block; margin: 0 auto 20px auto; width: 70%; height: auto; }
 .discord { display: block; width: 28%; height: auto; margin: 0 auto; }
+
+.brightness {
+    -webkit-filter: brightness(.5);
+    filter: brightness(.5);
+}
+
+.blur {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
