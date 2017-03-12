@@ -13,3 +13,7 @@ after_success:
     docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
     docker push $TRAVIS_REPO_SLUG:latest;
     fi
+notifications:
+  webhooks:
+    urls:
+        - http://api.asheron.net/webhooks/discord/travisci
