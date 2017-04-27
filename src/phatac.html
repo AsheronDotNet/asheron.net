@@ -43,8 +43,9 @@
       <div class="row">
         <div class="col s12">
           <ul class="tabs blue-text">
-            <li class="tab col s6"><a class="active" href="#features">Features</a></li>
-            <li class="tab col s6"><a href="#changelog">Changelog</a></li>
+            <li class="tab col s4"><a class="active" href="#features">Features</a></li>
+            <li class="tab col s4"><a href="#changelog">Changelog</a></li>
+            <li class="tab col s4"><a href="#videos">Videos</a></li>
           </ul>
         </div>
         <div id="features" class="col s12">
@@ -143,6 +144,146 @@
           </table>
         </div>
         <div id="changelog" class="col s12">
+          <table class="striped bordered">
+            <thead>
+              <tr>
+                  <th><h5><i class="material-icons">arrow_drop_down</i> April 22, 2017</h5></th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Added numerous Creature Self/Other buff spells.</td>
+              </tr>
+              <tr>
+                <td>Added fellowship basics. Includes chat and experience sharing matching the live server. A work in progress.</td>
+              </tr>
+              <tr>
+                <td>Added allegiance basics. Includes rank, XP passup and message of the day. Chat and other features not implemented yet. A work in progres.</td>
+              </tr>
+              <tr>
+                <td>Added fall physics damage.</td>
+              </tr>
+              <tr>
+                <td>Traps can now trigger monster spawns.</td>
+              </tr>
+              <tr>
+                <td>Lava, acid, and other hazards now deal damage.</td>
+              </tr>
+              <tr>
+                <td>Fixed appearances on numerous spawned monsters, most notably Shadow creatures.</td>
+              </tr>
+              <tr>
+                <td>Added server network ban functionality.</td>
+              </tr>
+              <tr>
+                <td>Added automatic five-minute saves to characters to rollback incase of server crash.</td>
+              </tr>
+              <tr>
+                <td>Migrated database from MySQL to MariaDB for increased performance.</td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="striped bordered">
+            <thead>
+              <tr>
+                  <th><h5><i class="material-icons">arrow_drop_down</i> April 17, 2017</h5></th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Added optimizations that should significantly improve the performance of the server.</td>
+              </tr>
+              <tr>
+                <td>Fixed crash bug during server shutdown that would sometimes prevent characters from saving properly.</td>
+              </tr>
+              <tr>
+                <td>Disabled most spawn commands.</td>
+              </tr>
+              <tr>
+                <td>Disabled clearing of default spawns (clear spawns command only clears player-spawned objects now.)</td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="striped bordered">
+            <thead>
+              <tr>
+                  <th><h5><i class="material-icons">arrow_drop_down</i> April 16, 2017</h5></th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Populated more than 80% of dungeons in the world with their creatures and objects.</td>
+              </tr>
+              <tr>
+                <td>Populated more than 90% of the landscape with proper creatures, including hard to find (e.g. Hoary Mattekar.)</td>
+              </tr>
+              <tr>
+                <td>Approximately 80% of all known portals are now in and fully usable with correct destinations. Others will be added.</td>
+              </tr>
+              <tr>
+                <td>Added hundreds of books (with content) to the game, available from "The Architect" testing NPC.</td>
+              </tr>
+              <tr>
+                <td>Added functional levers to the game. Doors that require levers can now be opened with them.</td>
+              </tr>
+              <tr>
+                <td>Added functional traps to the game. Spellcasting for traps will be added soon.</td>
+              </tr>
+              <tr>
+                <td>Upgraded the development/server machine with a Ryzen 1800X and 32GB DDR4-2666.</td>
+              </tr>
+              <tr>
+                <td>Many undocumented changes over the past couple weeks.</td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="striped bordered">
+            <thead>
+              <tr>
+                  <th><h5><i class="material-icons">arrow_drop_down</i> April 11, 2017</h5></th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Added the "Architect" test NPC which contains a significant (many hundreds) of items with full statistics.</td>
+              </tr>
+              <tr>
+                <td>Added requested classic content such as Nexus armor.</td>
+              </tr>
+              <tr>
+                <td>Large amounts of internal changes.</td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="striped bordered">
+            <thead>
+              <tr>
+                  <th><h5><i class="material-icons">arrow_drop_down</i> April 10, 2017</h5></th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Real character generation is now complete and uses options for: race, gender, class, full appearance, starting attributes and skills. Starter clothing options will be added later.</td>
+              </tr>
+              <tr>
+                <td>Most (>90%) armor appearances are now "generated" rather than based on captured data. They should work for all races and genders.</td>
+              </tr>
+              <tr>
+                <td>Experience point values are now set to closely match the live server for each monster.</td>
+              </tr>
+              <tr>
+                <td>Added a few additional items to vendors such as PPGSA and Hoary Mattekar Robe for testing purposes.</td>
+              </tr>
+              <tr>
+                <td>Added a couple Ring spells for experimentation purposes.</td>
+              </tr>
+            </tbody>
+          </table>
           <table class="striped bordered">
             <thead>
               <tr>
@@ -461,6 +602,13 @@
               </tr>
             </tbody>
           </table>
+        </div>
+        <div id="videos" class="col s12">
+          <h5 class="center">PhatAC Emulator Playlist by <a href="https://www.youtube.com/user/thwargle">Thwargle</a></h5>
+          <div class="video-container">
+            <br><br><br>
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLzd7f6MzUTTZro3QiSPzZLinN9vtVQZ1H" frameborder="0" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>
